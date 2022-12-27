@@ -1,0 +1,2 @@
+include LICENSE
+include tap_instagram_insights/schemas/*.json

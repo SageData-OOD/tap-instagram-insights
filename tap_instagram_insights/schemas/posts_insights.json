@@ -1,0 +1,33 @@
+{
+    "type": ["null", "object"],
+    "properties": {
+      "comments": {"type": ["null", "integer"]},
+      "engagement": {"type": ["null", "integer"]},
+      "exits": {"type": ["null", "integer"]},
+      "hashtags_count": {"type": ["null", "integer"]},
+      "impressions": {"type": ["null", "integer"]},
+      "likes": {"type": ["null", "integer"]},
+      "caption": {"type": ["null", "string"]},
+      "page_id": {"type": ["null", "integer"]},
+      "page_name": {"type": ["null", "string"]},
+      "plays": {"type": ["null", "integer"]},
+      "post_id": {"type": ["null", "integer"]},
+      "post_url": {"type": ["null", "string"]},
+      "reach": {"type": ["null", "integer"]},
+      "replies": {"type": ["null", "integer"]},
+      "saved": {"type": ["null", "integer"]},
+      "created_ts": {
+        "type": ["null", "string"],
+        "format": "date-time"
+      },
+      "shares": {"type": ["null", "integer"]},
+      "taps_back": {"type": ["null", "integer"]},
+      "taps_forward": {"type": ["null", "integer"]},
+      "total_interactions": {"type": ["null", "integer"]},
+      "video_views": {"type": ["null", "integer"]},
+      "mentioned_users": {
+        "type": ["null", "array"],
+        "items": {"type": ["null", "string"]}
+      }
+    }
+}

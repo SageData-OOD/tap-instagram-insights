@@ -1,0 +1,14 @@
+{
+    "type": ["null", "object"],
+    "properties": {
+		"business_account_id": {"type": ["null", "integer"]},
+		"followers_count": {"type": ["null", "integer"]},
+		"media_count": {"type": ["null", "integer"]},
+		"page_id": {"type": ["null", "integer"]},
+		"page_name": {"type": ["null", "string"]},
+		"created_ts": {
+          "type": ["null", "string"],
+          "format": "date-time"
+        }
+    }
+}
